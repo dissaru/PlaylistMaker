@@ -1,11 +1,11 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.HomerworkPlaylistMaker" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.PlaylistMaker" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.HomerworkPlaylistMaker" parent="Base.Theme.HomerworkPlaylistMaker" />
+    <style name="Theme.PlaylistMaker" parent="Base.Theme.PlaylistMaker" />
     <style name="WhiteButton" parent="Widget.MaterialComponents.Button">  <!-- Или parent="Widget.AppCompat.Button" если используете AppCompat -->
         <item name="android:backgroundTint">@color/white</item>
         <item name="android:textColor">@color/black</item>
