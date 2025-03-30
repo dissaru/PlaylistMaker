@@ -12,4 +12,6 @@
     <color name="icon_tint">#FFFFFF</color>#AEAFB4
     <color name="icon">#AEAFB4</color>
     <color name="background">#3772E7</color>
+    <color name="switchBackgroundDark">#3772E7</color>
+    <color name="switchBackgroundLight">#AEAFB4</color>
 </resources>
