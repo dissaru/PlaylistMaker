@@ -12,6 +12,8 @@
     <color name="icon_tint">#FFFFFF</color>#AEAFB4
     <color name="icon">#AEAFB4</color>
     <color name="background">#3772E7</color>
-    <color name="switchBackgroundDark">#3772E7</color>
-    <color name="switchBackgroundLight">#AEAFB4</color>
+    <color name="switchBackgroundDark">#3772E7</color>  <!--К Цвет ползунка во включенном состоянии -->
+    <color name="switchBackgroundLight">#E6E8EB</color> <!--П Цвет дорожки в выключенном состоянии -->
+    <color name="switchThumbChecked">#9FBBF3</color>   <!--К Цвет ползунка во включенном состоянии -->
+    <color name="switchThumbUnchecked">#AEAFB4</color>  <!--П Цвет ползунка в выключенном состоянии -->
 </resources>
