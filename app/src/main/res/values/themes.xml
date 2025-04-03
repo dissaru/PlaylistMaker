@@ -3,7 +3,28 @@
     <style name="Base.Theme.PlaylistMaker" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <item name="switchStyle">@style/PlaylistMaker.Switch</item>
+
     </style>
 
     <style name="Theme.PlaylistMaker" parent="Base.Theme.PlaylistMaker" />
+
+    <style name="PlaylistMaker.Switch" parent="Widget.MaterialComponents.CompoundButton.Switch">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.PlaylistMaker.Switch</item>
+    </style>
+
+    <style name="ThemeOverlay.PlaylistMaker.Switch" parent="">
+        <item name="colorSecondary">@color/switchBackgroundDark</item> <!--checked состояния -->
+        <item name="colorOnSurface">@color/switchBackgroundLight</item> <!--unchecked состояния -->
+    </style>
+
+
+    <style name="WhiteButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+    </style>
 </resources>
